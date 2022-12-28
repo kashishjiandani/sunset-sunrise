@@ -158,9 +158,9 @@ img{
         position:absolute;
         left: 53%;
         bottom:20%;
-        top:60%;
-        height: 50px;
-        width: 50px;
+        top:30%;
+        height: 70px;
+        width: 70px;
         background-color: #fcfc3a;
         border-radius: 50%;
         box-shadow: 5px 5px 20px 10px  #fcfc3a;
@@ -168,23 +168,23 @@ img{
     }
     @keyframes sun {
         100%{
-            transform: translateY(300px);
+            transform: translateY(600px);
         }   
     }
     .moon{
         position:absolute;
         left: 20%;
         bottom:5%;
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
         border-radius: 50%;
         opacity: transparent;
-        box-shadow: 7px 5px #fff;
+        box-shadow: 12px 8px #fff;
         animation:moon 15s forwards;
     }
     @keyframes moon {
         100%{
-            transform: translateY(-300px);
+            transform: translateY(-600px);
         }   
     }
     .cloud1{
@@ -247,5 +247,9 @@ img{
         height: 200px;
         width:400px;
     }
-    
+    .cropped {
+        width: 1000px; 
+        height: 500px; 
+        overflow: hidden;
+        }
 }
