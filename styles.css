@@ -150,6 +150,7 @@ img{
 @media (max-width:600px){
     body{
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     img{
         position: absolute;
