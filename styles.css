@@ -148,6 +148,9 @@ img{
 }
 
 @media (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
     img{
         position: absolute;
         bottom: 0;
